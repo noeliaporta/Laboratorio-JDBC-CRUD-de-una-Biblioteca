@@ -1,11 +1,24 @@
-# Default ignored files
+# IntelliJ IDEA - configuración del IDE
+.idea/
+*.iml
 /shelf/
 /workspace.xml
-/.idea
-# Editor-based HTTP Client requests
 /httpRequests/
-# Ignored default folder with query files
 /queries/
-# Datasource local storage ignored files
 /dataSources/
 /dataSources.local.xml
+
+# Maven - archivos compilados
+target/
+
+# Java - archivos compilados
+*.class
+*.jar
+*.war
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
