@@ -5,20 +5,16 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.example</groupId>
-    <artifactId>JavaDatabaseConnectivity</artifactId>
+    <artifactId>LaboratorioJDBC</artifactId>
     <version>1.0-SNAPSHOT</version>
 
-    <dependencies>                        <!-- envuelve las dependencias -->
+    <dependencies>
         <dependency>
             <groupId>org.mariadb.jdbc</groupId>
             <artifactId>mariadb-java-client</artifactId>
             <version>3.5.10</version>
         </dependency>
-    </dependencies>                        <!--  cierra -->
-
-    <modules>
-        <module>Lab_8</module>
-    </modules>
+    </dependencies>
 
     <properties>
         <maven.compiler.source>26</maven.compiler.source>
